@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="SmokeTestDemo">
+    <test verbose="2" preserve-order="true" name="C:/Users/Asus/RizkiAutomation/AllureReportDemo/src/test/java/rizki/allure">
+        <classes>
+            <class name="rizki.allure.Testcase1">
+        <methods><include name="testMethod1"/></methods></class>
+            <class name="rizki.allure.Testcase2">
+        <methods><include name="testMethod1"/></methods></class>
+        </classes>
+    </test>
+</suite>
